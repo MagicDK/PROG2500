@@ -1,0 +1,64 @@
+﻿<Page
+    x:Class="Windows_Programming_Assignment_2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Windows_Programming_Assignment_2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:models="using:Windows_Programming_Assignment_2.Models"
+    xmlns:viewmodels="using:Windows_Programming_Assignment_2.ViewModels"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.TopAppBar>
+        <CommandBar Background="LightGray" IsOpen="False" DefaultLabelPosition="Right">
+            <CommandBar.Content>
+                <TextBlock Text="{x:Bind NoteViewModelInstance.SelectedNoteTitle, Mode=TwoWay}" FontSize="16" Margin="16, 8"/>
+            </CommandBar.Content>
+            <AppBarButton Icon="Add" Command="{x:Bind NoteViewModelInstance.AddCommand}"/>
+            <AppBarButton Icon="Save" Command="{x:Bind NoteViewModelInstance.SaveCommand}"/>
+            <AppBarButton Icon="Edit" Command="{x:Bind NoteViewModelInstance.EditCommand}"/>
+            <AppBarSeparator/>
+            <AppBarButton Icon="Delete" Command="{x:Bind NoteViewModelInstance.DeleteCommand}"/>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Label="About"/>
+                <AppBarButton Label="Exit" Command="{x:Bind NoteViewModelInstance.ExitCommand}"/>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.TopAppBar>
+
+    <Page.Resources>
+        <CollectionViewSource x:Name="NoteCollection" 
+                Source="{x:Bind NoteViewModelInstance.Notes}"></CollectionViewSource>
+        <DataTemplate x:Name="NoteTemplate" x:DataType="models:NoteModel">
+            <StackPanel Orientation="Horizontal" Margin="6">
+                <TextBlock Text="{x:Bind Title}"></TextBlock>
+            </StackPanel>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="173*"/>
+            <ColumnDefinition Width="327*"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Column="0" BorderThickness="1" BorderBrush="Gray"></Border>
+        <StackPanel Grid.Row="0" Grid.Column="0">
+            <SearchBox x:Name="SearchBox" SearchHistoryEnabled="false"
+                       QueryText="{x:Bind NoteViewModelInstance.Filter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                       PlaceholderText="Search...">
+
+            </SearchBox>
+            <ScrollViewer>
+                <ListView VerticalAlignment="Top"
+                    ItemsSource="{Binding Source={StaticResource NoteCollection}}"
+                    ItemTemplate="{Binding Source={StaticResource NoteTemplate}}"
+                    SelectedItem="{x:Bind NoteViewModelInstance.SelectedNote, Mode=TwoWay}">
+                </ListView>
+            </ScrollViewer>
+        </StackPanel>
+        
+        <TextBox  Margin="12" Grid.Row="0" Grid.Column="1" IsReadOnly="{x:Bind NoteViewModelInstance.ReadOnly, Mode=TwoWay}" TextWrapping="Wrap" AcceptsReturn="True" BorderThickness="0" FontSize="24" Text="{x:Bind NoteViewModelInstance.SelectedNoteDescription, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+            </TextBox>
+    </Grid>
+</Page>
