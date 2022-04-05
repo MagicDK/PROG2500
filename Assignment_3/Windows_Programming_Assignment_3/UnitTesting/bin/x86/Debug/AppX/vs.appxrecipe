@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-98P18D6</Machine>
+    <WindowsUser>Cole</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>9f3a5530-ae2c-473e-ab96-021131a4fee5</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Cole</PackageIdentityPublisher>
+    <IntermediateOutputPath>E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\UnitTesting\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\UnitTesting\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>6966202642704C413D5404E2448FF60EB5C47B925064A1ADA331A2143907B62F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>9f3a5530-ae2c-473e-ab96-021131a4fee5_1.0.0.0_x86__45hvrnkzpf6sc</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>9f3a5530-ae2c-473e-ab96-021131a4fee5_45hvrnkzpf6sc!vstest.executionengine.universal.App</RegisteredUserModeAppID>
+    <RegisteredPackageID>9f3a5530-ae2c-473e-ab96-021131a4fee5</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Cole</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\UnitTesting\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-04-05T02:50:23.940</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\UnitTesting\bin\x86\Debug\UnitTesting.exe">
+      <PackagePath>entrypoint\UnitTesting.exe</PackagePath>
+      <Modified>2022-04-05T02:50:16.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\Windows_Programming_Assignment_3\bin\x86\Debug\Windows_Programming_Assignment_3.exe">
+      <PackagePath>Windows_Programming_Assignment_3.exe</PackagePath>
+      <Modified>2022-04-05T02:34:48.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\UnitTesting\bin\x86\Debug\UnitTesting.pdb">
+      <PackagePath>UnitTesting.pdb</PackagePath>
+      <Modified>2022-04-05T02:50:16.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\Windows_Programming_Assignment_3\bin\x86\Debug\Windows_Programming_Assignment_3.pdb">
+      <PackagePath>Windows_Programming_Assignment_3.pdb</PackagePath>
+      <Modified>2022-04-05T02:34:48.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\TestPlatform.Universal\17.0\References\CommonConfiguration\neutral\testhost.dll">
+      <PackagePath>testhost.dll</PackagePath>
+      <Modified>2021-10-20T01:48:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cole\.nuget\packages\mstest.testframework\2.2.7\lib\uap10.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</PackagePath>
+      <Modified>2021-09-03T14:17:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cole\.nuget\packages\mstest.testframework\2.2.7\lib\uap10.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.TestFramework.dll</PackagePath>
+      <Modified>2021-09-03T14:21:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cole\.nuget\packages\newtonsoft.json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2016-06-13T23:06:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.13\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2021-10-10T09:49:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2020-12-02T08:52:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cole\.nuget\packages\mstest.testadapter\2.2.7\build\_common\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll</PackagePath>
+      <Modified>2021-09-03T14:26:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cole\.nuget\packages\mstest.testadapter\2.2.7\build\_common\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll</PackagePath>
+      <Modified>2021-09-03T14:21:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cole\.nuget\packages\mstest.testadapter\2.2.7\build\uap10.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll</PackagePath>
+      <Modified>2021-09-03T14:24:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Cole\.nuget\packages\mstest.testadapter\2.2.7\build\uap10.0\Microsoft.TestPlatform.AdapterUtilities.dll">
+      <PackagePath>Microsoft.TestPlatform.AdapterUtilities.dll</PackagePath>
+      <Modified>2021-08-12T23:09:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\TestPlatform.Universal\17.0\Redist\CommonConfiguration\neutral\Microsoft.TestPlatform.CommunicationUtilities.dll">
+      <PackagePath>Microsoft.TestPlatform.CommunicationUtilities.dll</PackagePath>
+      <Modified>2021-10-20T01:48:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\TestPlatform.Universal\17.0\Redist\CommonConfiguration\neutral\Microsoft.TestPlatform.CoreUtilities.dll">
+      <PackagePath>Microsoft.TestPlatform.CoreUtilities.dll</PackagePath>
+      <Modified>2021-10-20T01:48:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\TestPlatform.Universal\17.0\Redist\CommonConfiguration\neutral\Microsoft.TestPlatform.CrossPlatEngine.dll">
+      <PackagePath>Microsoft.TestPlatform.CrossPlatEngine.dll</PackagePath>
+      <Modified>2021-10-20T01:48:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\TestPlatform.Universal\17.0\Redist\CommonConfiguration\neutral\Microsoft.TestPlatform.PlatformAbstractions.dll">
+      <PackagePath>Microsoft.TestPlatform.PlatformAbstractions.dll</PackagePath>
+      <Modified>2021-10-20T01:48:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\TestPlatform.Universal\17.0\Redist\CommonConfiguration\neutral\Microsoft.TestPlatform.Utilities.dll">
+      <PackagePath>Microsoft.TestPlatform.Utilities.dll</PackagePath>
+      <Modified>2021-10-20T01:48:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\TestPlatform.Universal\17.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Common.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.Common.dll</PackagePath>
+      <Modified>2021-10-20T01:48:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\TestPlatform.Universal\17.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.ObjectModel.dll</PackagePath>
+      <Modified>2021-10-20T01:48:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\TestPlatform.Universal\17.0\Redist\CommonConfiguration\x86\msdia140.dll">
+      <PackagePath>msdia140.dll</PackagePath>
+      <Modified>2021-10-20T01:48:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\UnitTesting\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2022-04-05T01:14:06.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\UnitTesting\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2022-03-30T02:43:47.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\UnitTesting\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-03-30T02:43:47.458</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\UnitTesting\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-03-30T02:43:47.459</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\UnitTesting\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-03-30T02:43:47.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\UnitTesting\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-03-30T02:43:47.461</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\UnitTesting\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-03-30T02:43:47.461</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\UnitTesting\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-03-30T02:43:47.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\UnitTesting\bin\x86\Debug\UnitTesting.xr.xml">
+      <PackagePath>UnitTesting.xr.xml</PackagePath>
+      <Modified>2022-04-05T01:46:56.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\Windows_Programming_Assignment_3\bin\x86\Debug\Windows_Programming_Assignment_3.xr.xml">
+      <PackagePath>Windows_Programming_Assignment_3.xr.xml</PackagePath>
+      <Modified>2022-04-05T00:03:54.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\UnitTesting\bin\x86\Debug\UnitTestApp.xbf">
+      <PackagePath>UnitTestApp.xbf</PackagePath>
+      <Modified>2022-04-05T02:50:16.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\Windows_Programming_Assignment_3\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2022-04-05T02:34:47.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\Windows_Programming_Assignment_3\bin\x86\Debug\AboutDialog.xbf">
+      <PackagePath>AboutDialog.xbf</PackagePath>
+      <Modified>2022-04-05T02:34:47.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\Windows_Programming_Assignment_3\bin\x86\Debug\DeleteNoteDialog.xbf">
+      <PackagePath>DeleteNoteDialog.xbf</PackagePath>
+      <Modified>2022-04-05T02:34:47.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\Windows_Programming_Assignment_3\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2022-04-05T02:34:48.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\Windows_Programming_Assignment_3\bin\x86\Debug\NewNoteDialog.xbf">
+      <PackagePath>NewNoteDialog.xbf</PackagePath>
+      <Modified>2022-04-05T02:34:48.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2020-12-02T06:52:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\UnitTesting\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2022-04-05T01:47:06.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\NSCC_Classes_Year_2\Semester2\PROG2500-Windows_Programming\Repo\Assignment_3\LocalNoteProgram\Windows_Programming_Assignment_3\UnitTesting\bin\x86\Debug\Core\UnitTesting.exe">
+      <PackagePath>UnitTesting.exe</PackagePath>
+      <Modified>2022-04-05T02:50:23.606</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.30527.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.30527.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.30527.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.30527.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.30527.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.30527.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.30316.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.30316.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.30316.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.30316.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.30316.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.30316.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
