@@ -1,0 +1,65 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Windows_Programming_Assignment_3.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Windows_Programming_Assignment_3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:models="using:Windows_Programming_Assignment_3.Models"
+    xmlns:viewmodels="using:Windows_Programming_Assignment_3.ViewModels"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.TopAppBar>
+        <CommandBar Background="LightGray" IsOpen="False" DefaultLabelPosition="Right">
+            <CommandBar.Content>
+                <TextBlock x:ConnectionId='2'                                                                      FontSize="16" Margin="16, 8"/>
+            </CommandBar.Content>
+            <AppBarButton x:ConnectionId='3' Icon="Add"                                                    />
+            <AppBarButton x:ConnectionId='4' Icon="Save"                                                     />
+            <AppBarButton x:ConnectionId='5' Icon="Edit"                                                     />
+            <AppBarSeparator/>
+            <AppBarButton x:ConnectionId='6' Icon="Delete"                                                       />
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:ConnectionId='7' Label="About"                                                      />
+                <AppBarButton x:ConnectionId='8' Label="Exit"                                                     />
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.TopAppBar>
+
+    <Page.Resources>
+        <CollectionViewSource x:ConnectionId='9' x:Name="NoteCollection" 
+                                                             ></CollectionViewSource>
+        <DataTemplate x:ConnectionId='10' x:Name="NoteTemplate"                              >
+            <StackPanel x:ConnectionId='11' Orientation="Horizontal" Margin="6">
+                <TextBlock x:ConnectionId='12'                      ></TextBlock>
+            </StackPanel>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="173*"/>
+            <ColumnDefinition Width="327*"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Column="0" BorderThickness="1" BorderBrush="Gray"></Border>
+        <StackPanel Grid.Row="0" Grid.Column="0">
+            <SearchBox x:ConnectionId='14' x:Name="SearchBox" SearchHistoryEnabled="false"
+                                                                                                                          
+                       PlaceholderText="Search...">
+
+            </SearchBox>
+            <ScrollViewer>
+                <ListView x:ConnectionId='15' VerticalAlignment="Top"
+                    ItemsSource="{Binding Source={StaticResource NoteCollection}}"
+                    ItemTemplate="{Binding Source={StaticResource NoteTemplate}}"
+                                                                                           >
+                </ListView>
+            </ScrollViewer>
+        </StackPanel>
+        
+        <TextBox x:ConnectionId='13'  Margin="12" Grid.Row="0" Grid.Column="1"                                                                   TextWrapping="Wrap" AcceptsReturn="True" BorderThickness="0" FontSize="24"                                                                                                                >
+            </TextBox>
+    </Grid>
+</Page>
+
